@@ -10,7 +10,7 @@ class DailyMenu(APIView):
 
     def get(self, request):
         url = ('https://developers.zomato.com/api/v2.1/'
-               'dailymenu?res_id=16506484&apikey=68aab2421c44cffdf8ca33eaef07dfe3')
+               'dailymenu?res_id=16506484&apikey=68##b242#############fe3') # here use your own api key
         # to get daily menu items of single restaurants
 
         # grabbing the JSON result
@@ -38,8 +38,8 @@ class Restaurants(APIView):
 
     def get(self, request):
         url = ('https://developers.zomato.com/api/v2.1/'
-               'search?apikey=68aab2421c44cffdf8ca33eaef07dfe3'
-               '&q=restaurant&lat=50.075539&lon=14.437800&radius=100&sort=rating&order=asc')
+               'search?apikey=6###6:#b2421######7&##e3' 
+               '&q=restaurant&lat=50.075539&lon=14.437800&radius=100&sort=rating&order=asc') # here use your own api key
         # to get all restaurants details
 
         # grabbing the JSON result
